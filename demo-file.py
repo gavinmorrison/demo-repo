@@ -3,7 +3,7 @@
 def sum_of_evens(numbers):
     total = 0
     for num in numbers:
-        if num % 2:
+        if num % 2 == 0:
             total += num
     return total
 
